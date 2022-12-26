@@ -358,7 +358,7 @@ class _CustomNavigationBarState extends State<CustomNavigationBar>
               sigmaY: 10.0,
             ),
             child: Opacity(
-              opacity: 0.6,
+              opacity: widget.opacity,
               child: bar,
             ),
           ),
